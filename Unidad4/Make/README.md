@@ -26,3 +26,10 @@ El fichero make, nos permite indicar al make que instrucciones ha de ejecutar so
 
 -------------------------------------------------------------------------------
 
+He creado una carpeta llamada Part2 dentro de la carpeta Make para diferenciar la primera parte del ejercicio que era subir a nuestro repositorio los ficheros que ya teniamos hechos de la calculadora.
+
+He copiado los ficheros necesarios para hacer la calculadora en la carpeta llamada Part2.
+
+Estos archivos los he modificado para implementar la funcion mayor que, que entre dos numeros nos dira cual es el mayor.
+
+Por ultimo he compilado los ficheros y he creado el fichero ejecutable calculamayor, que al ejecutarlo hace las mismas operaciones que la calculadora anterior solo que ahora le hemos añadido la funcion mayor que, que nos indica cual sera el numero mayor.
