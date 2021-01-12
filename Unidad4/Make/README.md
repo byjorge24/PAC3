@@ -32,4 +32,15 @@ He copiado los ficheros necesarios para hacer la calculadora en la carpeta llama
 
 Estos archivos los he modificado para implementar la funcion mayor que, que entre dos numeros nos dira cual es el mayor.
 
-Por ultimo he compilado los ficheros y he creado el fichero ejecutable calculamayor, que al ejecutarlo hace las mismas operaciones que la calculadora anterior solo que ahora le hemos añadido la funcion mayor que, que nos indica cual sera el numero mayor.
+Por ultimo he compilado los ficheros y he creado el fichero ejecutable calculamayor, que al ejecutarlo hace las mismas operaciones que la calculadora anterior solo que ahora le hemos añadido la funcion mayor que, que nos indica cual sera el numero mayori.
+
+--------------------------------------------------------------------------------
+
+Por ultimo he completado el fichero makefile.
+Dentro del makefile tenemos diferentes targets.
+Estos targets nos permiten automatizar las acciones que haremos sobre nuestros ficheros.
+Primero que todo tenemos un target para crear el fichero calc2.o, necesitaremos los archivos calc.c y calc2.h
+El segundo target sera para compilar el fichero calcula. Para este necesitaremos el fichero calcula.c y calc2.o
+Seguidamente tendremos el target de limpiar o clean, nos permite borrar los ficheros no deseados o que ya no vamos a utilizar.
+El penultimo target es el targz. Este target nos permite comprimir los archivos en un .tar y luego haremos un gzip para volverlos a comprimir en un .gz
+El ultimo target nos permite descomprimir el archivo .gz que hemos creado anteriormente para que lo podamos utilizar.
