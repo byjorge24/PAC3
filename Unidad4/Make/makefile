@@ -10,3 +10,16 @@ calcula: calcula.c calc2.o
 .PHONY: limpiar
 limpiar:
 	rm -rf *.o
+
+.PHONY: targz
+targz: limpiar
+	mkdir codigo
+	cp *.c *.h Makefile codigo
+	tar -cvf calcula.tar codigo
+	gzip calcula.tar
+	rm -rf calcula.tar
+	rm -rf codigo
+
+.PHONY: install
+install:
+	gzip -d calcula.gz
