@@ -14,7 +14,7 @@ limpiar:
 .PHONY: targz
 targz: limpiar
 	mkdir codigo
-	cp *.c *.h Makefile codigo
+	cp *.c *.h makefile codigo
 	tar -cvf calcula.tar codigo
 	gzip calcula.tar
 	rm -rf calcula.tar
