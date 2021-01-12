@@ -18,7 +18,7 @@ El archivo (calc.c) tendra implementadas las funciones.
 El archivo (calc.h) contendra las cabeceras de las funciones que hay en el archivo (calc.c).
 
 A partir del archivo (calc.c) obtenemos (calc.o).
-El archivo calc.o lo necesitamos junto al archivo calc.c para obtener el fichero ejecutable (calcula).
+El archivo calc.o lo necesitamos junto al archivo calcula.c para obtener el fichero ejecutable (calcula).
 
 Y por ultimo tenemos el archivo makefile, este archivo es necesario para automatizar las tareas.
 
